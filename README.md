@@ -26,5 +26,5 @@ A few other assumptions:
 
     You must now have:
 
-    ```cp -r your_project-%{version}/etc/your_project/some_config_file $RPM_BUILD_ROOT%{_sysconfdir}/condor```
+    ```cp -r your_project-%{version}/etc/your_project/some_config_file $RPM_BUILD_ROOT%{_sysconfdir}/your_project```
 
